@@ -22,7 +22,7 @@ section {
 }
 
 .sectionPadding {
-  padding: 100px 0px;
+  padding: 70px 0px;
 }
 
 .blogWrapper {
@@ -42,4 +42,12 @@ section {
 
 .col-9 {
   width: 75%
+}
+
+.col-3 img {
+  width: 100%;
+}
+
+.blogBox {
+  padding-left: 20px;
 }

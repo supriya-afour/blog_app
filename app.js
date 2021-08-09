@@ -9,12 +9,12 @@ app.get("/", (req, res) => {
   res.sendFile("index.html", { root: path.join(__dirname) });
 });
 
-app.get("/create_sample_content", (req, res) => {
-  res.sendFile("create_sample_content.html", { root: path.join(__dirname) })
+app.get("/about_npm", (req, res) => {
+  res.sendFile("about_npm.html", { root: path.join(__dirname) })
 })
 
-app.get("/uploading_featured_images", (req, res) => {
-  res.sendFile("uploading_featured_images.html", { root: path.join(__dirname) })
+app.get("/introducing_node", (req, res) => {
+  res.sendFile("introducing_node.html", { root: path.join(__dirname) })
 })
 
 
