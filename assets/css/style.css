@@ -1,0 +1,45 @@
+body {
+  background-color:darkgray;
+}
+
+section {
+  display: block;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.col-1, .col-10, .col-11, .col-12, .col-12-5, .col-2, .col-3, .col-4, 
+.col-5, .col-6, .col-7, .col-8, .col-9, .w30, .w70 {
+  float: left;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.sectionPadding {
+  padding: 100px 0px;
+}
+
+.blogWrapper {
+  padding-bottom: 10px;
+  float: left;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.col-3 {
+  width: 25%
+}
+
+.col-9 {
+  width: 75%
+}
